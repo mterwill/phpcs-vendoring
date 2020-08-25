@@ -2,5 +2,7 @@
 
 set -euo pipefail
 
+cd "$(git rev-parse --show-toplevel)/my-app"
+
 # Eyeball validation - should produce a few linting errors.
 ./vendor/bin/phpcs --standard=./vendor/mterwilliger/my-standard/MyStandard poorly_formatted.php
