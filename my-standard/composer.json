@@ -1,0 +1,13 @@
+{
+    "name": "mterwilliger/my-standard",
+    "authors": [
+        {
+            "name": "Matthew Terwilliger",
+            "email": "mterwilliger@rsglab.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpcompatibility/php-compatibility": "*"
+    }
+}

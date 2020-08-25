@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+# Eyeball validation - should produce a few linting errors.
+./vendor/bin/phpcs --standard=MyStandard poorly_formatted.php
