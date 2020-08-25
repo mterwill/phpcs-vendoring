@@ -1,5 +1,7 @@
 # phpcs-vendoring
 
+:link: https://github.com/squizlabs/PHP_CodeSniffer/issues/3056
+
 My organization has several applications that use the same [PHP_CodeSniffer][] standard.
 Our code standard is a Composer package that is vendored by each application.
 We commit our `vendor/` directory to source control.
